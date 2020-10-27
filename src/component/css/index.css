@@ -1,0 +1,152 @@
+.addServer{
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+    margin-top: 100px;
+    background-color: #c3c3c3;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.menuTree{
+    width: 100%;
+}
+
+.ant-tabs-content-holder{
+    height: 100%;
+}
+
+.ant-tabs-content{
+    height: 100%;
+}
+
+.ant-tabs{
+    height: 100%;
+}
+
+.addIcon{
+    width: 100%;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.data{
+    width: 100%;
+    height: 100%;
+}
+
+.main-font{
+    font-size: 17px;
+    color: #000;
+    line-height: 70px;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.modal-content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+}
+
+.rowMargin{
+    margin-top: 20px;
+}
+
+.addIserverTitle{
+    height: 80px;
+    width: 100%;
+}
+
+.tab{
+    width: 100%;
+    height: 100%;
+}
+
+.leftDiv{
+    width: 30%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+}
+
+.rightDiv{
+    width: 69%;
+    float: right;
+    display: inline-block;
+    height: 100%;
+}
+
+.sceneTree{
+    display: inline-block;
+    height: 49%;
+    width: 100%;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+
+.sceneTree::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width : 3px;  /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+    }
+    .sceneTree::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 10px;
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #535353;
+    }
+    .sceneTree::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background   : #ededed;
+    }
+
+.JsonContent{
+    margin-top: 0.5%;
+    display: inline-block;
+    height: 49%;
+    width: 100%;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+
+.JsonContent::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width : 3px;  /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+    }
+    .JsonContent::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 10px;
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #535353;
+    }
+    .JsonContent::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background   : #ededed;
+    }
+
